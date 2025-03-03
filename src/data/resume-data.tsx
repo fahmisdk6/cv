@@ -83,7 +83,7 @@ export const RESUME_DATA = {
           Bukalapak was one of the largest eCommerce in Indonesia.
           <ul className="list-inside list-disc">
             <li>
-              As part of Discovery squad, i have developed \"BukaBike\" (a rental bike service) features for Android and iOS
+              As part of Discovery squad, i have developed &quot;BukaBike&quot; (a rental bike service) features for Android and iOS
             </li>
             <li>
               As part of Society squad, i have developed E-Samsat, Pajak PBB, Penerimaan Negara, Buka Ramadhan features for iOS
@@ -95,7 +95,7 @@ export const RESUME_DATA = {
               As part of Saas, I have developed feature for Mitra Bukalapak Android App And BukuMitra app.
             </li>
             <li>
-              Assigned to work on \"Project Beta\" Android and iOS app that eventually become Allofresh
+              Assigned to work on &quot;Project Beta&quot; Android and iOS app that eventually become Allofresh
             </li>
           </ul>
         </>
