@@ -167,4 +167,5 @@ export const RESUME_DATA = {
     "Ruby",
     "PHP",
   ],
+  projects: []
 } as const;

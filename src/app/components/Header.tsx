@@ -160,12 +160,10 @@ export function Header() {
 
         <ContactButtons
           contact={RESUME_DATA.contact}
-          personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
         />
 
         <PrintContact
           contact={RESUME_DATA.contact}
-          personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
         />
       </div>
 
