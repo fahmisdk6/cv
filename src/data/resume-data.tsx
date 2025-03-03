@@ -103,6 +103,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Muslimapp.id",
+      link: "https://muslimapp.id/",
       badges: ["Android", "Java", "Kotlin"],
       title: "Android Developer → Lead Android Developer",
       start: "2018",
@@ -120,6 +121,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Qlue",
+      link: "https://qlue.co.id/",
       badges: ["Freelance", "Android", "Java"],
       title: "Android Developer",
       start: "2016",
@@ -135,6 +137,7 @@ export const RESUME_DATA = {
     },
     {
       company: "DyCode",
+      link: "http://www.dycode.co.id/",
       badges: ["Android", "Java", "Kotlin"],
       title: "Android Developer → Lead Android Developer",
       start: "2014",
