@@ -56,10 +56,10 @@ export const RESUME_DATA = {
               Developed, managed, and enhanced automation processes for building, testing, and distributing builds to testers.
             </li>
             <li>
-              Migrated Android and iOS native add to Flutter single code base. 
+              Migrated Android and iOS native app to Flutter single code base. 
             </li>
             <li>
-              Integrated Real User Monitoring and Performance Tracking with Datadog. 
+              Integrated Real User Monitoring (RUM) and performance tracking with Datadog. 
             </li>
             <li>
               Integrated device fingerprinting system to help with fraud detection.
