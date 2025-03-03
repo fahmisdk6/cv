@@ -1,241 +1,170 @@
-import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Fahmi Sidik",
+  initials: "FS",
+  location: "Bandung, Indonesia",
+  locationLink: "https://www.google.com/maps/place/Bandung",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Senior Mobile App Engineer (Android, iOS, Flutter, CI)",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Mobile-Focused Software Engineer with combined 10 years of experience in Android, iOS, Flutter, and CI/CD. I have worked on feature development, performance optimization, native to Flutter migration, automation, and developer toolings.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/10940190?s=400&u=64654a4de3f4248853a02b94a1900fff9392bf55&v=4",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "fahmisdk6@gmail.com",
+    tel: "+6281931391287",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/fahmisdk6",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/fahmi-sidik/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Vocational High School 1, Cimahi",
+      degree: "Software Engineering Major",
+      start: "2011",
+      end: "2015",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
+      company: "Allofresh",
+      link: "https://allofresh.id/",
+      badges: ["Android", "iOS", "Flutter", "CICD", "Kotlin", "Swift", "Dart", "Ruby", "Fastlane"],
+      title: "Software Development Engineer -> Senior Software Development Engineer",
+      start: "2022",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Allofresh is eGrocery/Quick Commerce startup from Bukalapak and Trans Retail Indonesia.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Automated the release process for Android and iOS apps, minimizing manual intervention and potential errors.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Developed, managed, and enhanced automation processes for building, testing, and distributing builds to testers.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Migrated Android and iOS native add to Flutter single code base. 
+            </li>
+            <li>
+              Integrated Real User Monitoring and Performance Tracking with Datadog. 
+            </li>
+            <li>
+              Integrated device fingerprinting system to help with fraud detection.
+            </li>
+            <li>
+              Improve crashrates-free from 95% to 99%, reduce apk size by ~10MB, improve startup time and reduce frozen frame at the early stage of Allofresh.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Bukalapak",
+      link: "https://bukalapak.com",
+      badges: ["Android", "iOS", "CICD", "Kotlin", "Swift"],
+      title: "Mobile App Engineer",
+      start: "2018",
+      end: "2022",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Bukalapak was one of the largest eCommerce in Indonesia.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              As part of Discovery squad, i have developed "BukaBike" (a rental bike service) features for Android and iOS
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              As part of Society squad, i have developed E-Samsat, Pajak PBB, Penerimaan Negara, Buka Ramadhan features for iOS
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              As part of Core Developer Xperience, i have developed CI/CD system for bukalapak iOS apps and maintained internal toolings.
+            </li>
+            <li>
+              As part of Saas, I have developed feature for Mitra Bukalapak Android App And BukuMitra app.
+            </li>
+            <li>
+              Assigned to work on "Project Beta" Android and iOS app that eventually become Allofresh
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
+      company: "Muslimapp.id",
+      badges: ["Android", "Java", "Kotlin"],
       title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2018",
+      end: "2018",
       description: (
         <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
+          MuslimApp.id is a companion app for Muslim in Indonesia.
           <ul className="list-inside list-disc">
             <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
+              Developed MuslimApp.id android app and continue improving its feature and stability after release.
             </li>
-            <li>Built and mentored high-performing mobile development team</li>
           </ul>
         </>
       ),
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      company: "Qlue",
+      badges: ["Freelance", "Android", "Java"],
+      title: "Android Developer",
+      start: "2016",
+      end: "2017",
+      description: (
+        <>
+          Qlue is a smart city provider company in Indonesia that was the official app for Jakarta from 2014 to 2020.
+          <ul className="list-inside list-disc">
+            <li>Developed new featured for Qlue android application, revamped existing feature and redesign its UI.</li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "DyCode",
+      badges: ["Android", "Java", "Kotlin"],
+      title: "Android Developer → Lead Android Developer",
+      start: "2014",
+      end: "2017",
+      description: (
+        <>
+          DyCode is an award-winning application development enabler based in Bandung, Indonesia.
+          <ul className="list-inside list-disc">
+            <li>Developed boilerplate and establish engineering standard for Android team.</li>
+            <li>Developed new Android application and mantain legacy application.</li>
+            <li>Developed 2 Android application related with Internet of Things.</li> 
+            <li>Mentored junior and intern Android Developers.</li> 
+            <li>Gave several talks and workshop about Android Development.</li>
+          </ul>
+        </>
+      ),
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
-  ],
-  projects: [
-    {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
+    "Flutter",
+    "Dart",
+    "Android Development",
+    "Java",
+    "Kotlin",
+    "XML",
+    "iOS Development",
+    "Swift",
+    "Git",
+    "Continuous Integration (CI)",
+    "Ruby",
+    "PHP",
   ],
 } as const;
