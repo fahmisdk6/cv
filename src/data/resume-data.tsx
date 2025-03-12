@@ -166,9 +166,62 @@ export const RESUME_DATA = {
     "iOS Development",
     "Swift",
     "Git",
-    "Continuous Integration (CI)",
+    "Continuous Integration/Continuous Delivery (CI/CD)",
+    "Gitlab CI/CD",
+    "Fastlane",
+    "Jenkins",
+    "Clean Architecture",
+    "Unit Testing",
+    "Instrumentation Testing",
     "Ruby",
     "PHP",
   ],
-  projects: []
+  projects: [
+    {
+      title: "Allofresh",
+      description: "Allofresh is eGrocery/Quick Commerce App with millions of downloads and 4.9 rating in Play Store.",
+      techStack: ["Android", "iOS", "Flutter", "CICD", "Kotlin", "Swift", "Dart", "Ruby", "Fastlane"],
+      link: {
+        label: "Allofresh",
+        href: "https://allofresh.id/",
+      },
+    },
+    {
+      title: "Bukalapak",
+      description: "Bukalapak is one of the largest e-commerce platforms in Indonesia with 50+ millions downloads and 4.5 rating in Play Store.",
+      techStack: ["Android", "Java", "Kotlin", "Swift", "iOS"],
+      link: {
+        label: "Bukalapak",
+        href: "https://www.bukalapak.com/",
+      },
+    },
+    {
+      title: "Mitra Bukalapak",
+      description: "Mitra Bukalapak is a platform for Bukalapak's partners to enrich their business with Bukalapak's ecosystem with 10+ millions downloads and 4.5 rating in Play Store.",
+      techStack: ["Android", "Java", "Kotlin", "Swift", "iOS"],
+      link: {
+        label: "Mitra Bukalapak",
+        href: "https://mitra.bukalapak.com/",
+      },
+    },
+    {
+      title: "MuslimApp.id",
+      description: "MuslimApp.id is a companion app for Muslim in Indonesia.",
+      techStack: ["Android", "Java", "Kotlin"],
+      link: {
+        label: "MuslimApp.id",
+        href: "https://muslimapp.id/",
+      },
+    },
+    {
+      title: "Qlue",
+      description: "Qlue is an official smart city app  for Jakarta from 2014 to 2020.",
+      techStack: ["Android", "Java", "Kotlin"],
+      link: {
+        label: "Qlue",
+        href: "https://qlue.co.id/",
+      },
+    },
+    
+  ]
 } as const;
