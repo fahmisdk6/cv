@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       end: "2022",
       description: (
         <>
-          Leading Indonesian e-commerce platform serving over 100 million users and 7 million partners. Notable for its 2021 IPO, which raised approximately $1.5 billion, marking Indonesia's largest at the time.
+          Leading Indonesian e-commerce platform serving over 100 million users and 7 million partners. Notable for its 2021 IPO, which raised approximately $1.5 billion, marking Indonesia&apos;s largest at the time.
           <ul className="list-inside list-disc">
             <li>
               Developed BukaBike, an IoT-powered bike rental service, for Android and iOS.
@@ -146,7 +146,7 @@ export const RESUME_DATA = {
         <>
           Award-winning application development consultant based in Bandung, Indonesia.
           <ul className="list-inside list-disc">
-            <li>Developed multiple Android applications, including two IoT-driven projects, expanding DyCode's portfolio in smart technology solutions.</li>
+            <li>Developed multiple Android applications, including two IoT-driven projects, expanding DyCode&apos;s portfolio in smart technology solutions.</li>
             <li>Standardized engineering best practices, creating reusable boilerplate code that increased development speed and project maintainability.</li>
             <li>Mentored and trained junior engineers, fostering a strong Android development team.</li>
             <li>Led technical workshops on Android development, sharing expertise with local developer communities.</li>
@@ -196,7 +196,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Mitra Bukalapak",
-      description: "Mitra Bukalapak is a platform for Bukalapak's partners to enrich their business with Bukalapak's ecosystem with 10+ millions downloads and 4.5 rating in Play Store.",
+      description: "Mitra Bukalapak is a platform for Bukalapak&apos;s partners to enrich their business with Bukalapak&apos;s ecosystem with 10+ millions downloads and 4.5 rating in Play Store.",
       techStack: ["Android", "Java", "Kotlin", "Swift", "iOS"],
       link: {
         label: "Mitra Bukalapak",
@@ -214,7 +214,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Qlue",
-      description: "Qlue is an official smart city app  for Jakarta from 2014 to 2020.",
+      description: "Qlue is an official smart city app for Jakarta from 2014 to 2020.",
       techStack: ["Android", "Java", "Kotlin"],
       link: {
         label: "Qlue",
