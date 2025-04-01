@@ -47,25 +47,25 @@ export const RESUME_DATA = {
       end: null,
       description: (
         <>
-          Allofresh is eGrocery/Quick Commerce startup from Bukalapak and Trans Retail Indonesia.
+           Online grocery platform formed through a joint venture between Bukalapak, Trans Retail Indonesia, and Growtheum Capital Partners. Launched in 2022 with an initial funding of $70 million.
           <ul className="list-inside list-disc">
             <li>
-              Automated the release process for Android and iOS apps, minimizing manual intervention and potential errors.
+              Launched the first version for Android and iOS using native technology, maintaining a crash rate of ~99%, optimizing application size, app startup time, and rendering performance. 
             </li>
             <li>
-              Developed, managed, and enhanced automation processes for building, testing, and distributing builds to testers.
+              Migrated Android and iOS native apps to a Flutter app in a single code base while adding features to the native apps. Reduced the manpower required for each feature and sped up the development timeline.
             </li>
             <li>
-              Migrated Android and iOS native app to Flutter single code base. 
+              Developed critical features such as payment integration and background sync cart system, improving user checkout experience and reducing drop-off rates.
             </li>
             <li>
-              Integrated Real User Monitoring and performance tracking with Datadog. 
+              Improved the development process by developing, managing, and enhancing automation processes for building, testing, and distributing builds to testers. Reducing manual processes, preventing bugs, and improving general productivity. 
             </li>
             <li>
-              Integrated device fingerprinting system to help with fraud detection.
+              Integrated and enhanced monitoring tools to track metrics such as sessions, user actions, resource usage, errors, and performance traces. These tools help developers debug production issues, monitor system health, and improve overall performance.
             </li>
             <li>
-              Improve crashrates-free from 95% to 99%, reduce apk size by ~10MB, improve startup time and reduce frozen frame at the early stage of Allofresh.
+              Improved the release process by automating processes such as code freeze,  updating the release note, uploading to TestFlight/internal tester, and promoting to App Store/Google Play Store. Reducing 90% of manual processes and preventing common errors.
             </li>
           </ul>
         </>
@@ -80,22 +80,22 @@ export const RESUME_DATA = {
       end: "2022",
       description: (
         <>
-          Bukalapak was one of the largest eCommerce in Indonesia.
+          Leading Indonesian e-commerce platform serving over 100 million users and 7 million partners. Notable for its 2021 IPO, which raised approximately $1.5 billion, marking Indonesia's largest at the time.
           <ul className="list-inside list-disc">
             <li>
-              As part of Discovery squad, i have developed &quot;BukaBike&quot; (a rental bike service) features for Android and iOS
+              Developed BukaBike, an IoT-powered bike rental service, for Android and iOS.
             </li>
             <li>
-              As part of Society squad, i have developed E-Samsat, Pajak PBB, Penerimaan Negara, Buka Ramadhan features for iOS
+              Built tax payment features (E-Samsat, Pajak PBB, Penerimaan Negara) for iOS, simplifying government tax payments for millions of users.
             </li>
             <li>
-              As part of Core Developer Xperience, i have developed CI/CD system for bukalapak iOS apps and maintained internal toolings.
+              Improved the development process by developing, managing, and enhancing automation processes for building, testing, and distributing builds to testers. Reducing manual processes, preventing bugs, and improving general productivity. 
             </li>
             <li>
-              As part of Saas, I have developed feature for Mitra Bukalapak Android App And BukuMitra app.
+              Reducing test pipeline duration by 66% by detecting the changes in the MR and only testing the changed module and its affected modules. 
             </li>
             <li>
-              Assigned to work on &quot;Project Beta&quot; Android and iOS app that eventually become Allofresh
+              Assigned to work on &quot;Project Beta&quot; Android and iOS app that eventually became Allofresh.
             </li>
           </ul>
         </>
@@ -110,7 +110,7 @@ export const RESUME_DATA = {
       end: "2018",
       description: (
         <>
-          MuslimApp.id is a companion app for Muslim in Indonesia.
+          Islamic lifestyle application designed to support the daily worship and spiritual needs of Muslims in Indonesia.
           <ul className="list-inside list-disc">
             <li>
               Developed MuslimApp.id android app and continue improving its feature and stability after release.
@@ -128,7 +128,7 @@ export const RESUME_DATA = {
       end: "2017",
       description: (
         <>
-          Qlue is a smart city provider company in Indonesia that was the official app for Jakarta from 2014 to 2020.
+          A smart city provider company in Indonesia that was the official app for Jakarta from 2014 to 2020.
           <ul className="list-inside list-disc">
             <li>Developed new featured for Qlue android application, revamped existing feature and redesign its UI.</li>
           </ul>
@@ -144,13 +144,12 @@ export const RESUME_DATA = {
       end: "2017",
       description: (
         <>
-          DyCode is an award-winning application development enabler based in Bandung, Indonesia.
+          Award-winning application development consultant based in Bandung, Indonesia.
           <ul className="list-inside list-disc">
-            <li>Developed boilerplate and establish engineering standard for Android team.</li>
-            <li>Developed new Android application and mantain legacy application.</li>
-            <li>Developed 2 Android application related with Internet of Things.</li> 
-            <li>Mentored junior and intern Android Developers.</li> 
-            <li>Gave several talks and workshop about Android Development.</li>
+            <li>Developed multiple Android applications, including two IoT-driven projects, expanding DyCode's portfolio in smart technology solutions.</li>
+            <li>Standardized engineering best practices, creating reusable boilerplate code that increased development speed and project maintainability.</li>
+            <li>Mentored and trained junior engineers, fostering a strong Android development team.</li>
+            <li>Led technical workshops on Android development, sharing expertise with local developer communities.</li>
           </ul>
         </>
       ),
