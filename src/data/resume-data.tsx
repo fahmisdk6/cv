@@ -50,7 +50,7 @@ export const RESUME_DATA = {
            Online grocery platform formed through a joint venture between Bukalapak, Trans Retail Indonesia, and Growtheum Capital Partners. Launched in 2022 with an initial funding of $70 million.
           <ul className="list-inside list-disc">
             <li>
-              Launched the first version for Android and iOS using native technology, maintaining a crash rate of ~99%, optimizing application size, app startup time, and rendering performance. 
+              Launched the first version for Android and iOS using native technology, maintaining a crash-free rate of ~99%, optimizing application size, app startup time, and rendering performance. 
             </li>
             <li>
               Migrated Android and iOS native apps to a Flutter app in a single code base while adding features to the native apps. Reduced the manpower required for each feature and sped up the development timeline.
